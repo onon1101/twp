@@ -1,0 +1,8 @@
+version: '1.0.0'
+
+services:
+  web:
+    build: .
+    container_name: twp
+    ports:
+      - "8080:8080"
